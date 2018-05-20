@@ -17,3 +17,9 @@ Therefore to run in development use
     $ rebar3 shell
 
 Then visit [localhost:8080](http://localhost:8080).
+
+## Comments
+
+- At the moment the rebar3 plugin for Elixir does not do a good job of managing dependencies. This is manifest twofold.
+  1. Each dependency has to be declared individually but the should be inferrable as dependencies of Ace.
+  2. running `application:ensure_all_started(ace)` is a problem because it tries to start even development dependencies such as ex_doc.
