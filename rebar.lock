@@ -1,0 +1,9 @@
+{"1.1.0",
+[{<<"ace">>,{elixir,"ace","0.16.4"},0},
+ {<<"cookie">>,{elixir,"cookie","0.1.0"},0},
+ {<<"hpack">>,{pkg,<<"hpack_erl">>,<<"0.2.3">>},0},
+ {<<"raxx">>,{elixir,"raxx","0.15.2"},0}]}.
+[
+{pkg_hash,[
+ {<<"hpack">>, <<"17670F83FF984AE6CD74B1C456EDDE906D27FF013740EE4D9EFAA4F1BF999633">>}]}
+].
